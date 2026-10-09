@@ -5,7 +5,7 @@ def fetch():
     r = requests.get(
         'https://data.cdc.gov/resource/45cq-cw4i.json',
         params={'$limit': 100},
-        timeout=15
+        timeout=45
     )
     return r.json()
 

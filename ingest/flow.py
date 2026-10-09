@@ -6,7 +6,14 @@ from govdata import fetch as fetch_govdata
 from transit import fetch as fetch_transit
 from fingerprints import fingerprint
 from compare import compare
+from datetime import datetime
 
+def save_history(name, data): 
+    folder = f'snapshots/history/{name}' 
+    os.makedirs(folder, exist_ok=True) 
+    stamp = datetime.now().strftime('%Y%m%d_%H%M%S') 
+    with open(f'{folder}/{stamp}.json', 'w') as f: 
+        json.dump(data, f) 
 
 def process(name, data):
     snap_path = f'snapshots/{name}_snapshot.json'
@@ -22,6 +29,9 @@ def process(name, data):
 
     with open(snap_path, 'w') as f:
         json.dump(data, f)
+    
+    save_history(name, data)
+    
     with open(fp_path, 'w') as f:
         json.dump(new_fp, f, indent=2)
 
