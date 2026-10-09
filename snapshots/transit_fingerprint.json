@@ -1,0 +1,152 @@
+{
+  "$": {
+    "types": {
+      "list": 1.0
+    },
+    "presence": null
+  },
+  "$[]": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": null
+  },
+  "$[].id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.tripId": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.startTime": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.startDate": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.scheduleRelationship": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.routeId": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.trip.directionId": {
+    "types": {
+      "int": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate": {
+    "types": {
+      "list": 1.0
+    },
+    "presence": 0.899
+  },
+  "$[].tripUpdate.stopTimeUpdate[]": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": null
+  },
+  "$[].tripUpdate.stopTimeUpdate[].stopSequence": {
+    "types": {
+      "int": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].stopId": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].arrival": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 0.766
+  },
+  "$[].tripUpdate.stopTimeUpdate[].arrival.time": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.vehicle": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 0.284
+  },
+  "$[].tripUpdate.vehicle.id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.timestamp": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].departure": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 0.087
+  },
+  "$[].tripUpdate.stopTimeUpdate[].departure.time": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty": {
+    "types": {
+      "int": 1.0
+    },
+    "presence": 0.003
+  },
+  "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty": {
+    "types": {
+      "int": 1.0
+    },
+    "presence": 0.006
+  }
+}

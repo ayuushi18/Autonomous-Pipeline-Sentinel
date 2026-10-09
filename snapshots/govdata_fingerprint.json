@@ -1,0 +1,242 @@
+{
+  "$": {
+    "types": {
+      "list": 1.0
+    },
+    "presence": null
+  },
+  "$[]": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": null
+  },
+  "$[].record_id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].site": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].state_territory": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].source": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].county_fips": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].counties_served": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].population_served": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].sample_id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].sample_collect_date": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].sample_type": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].sample_matrix": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].sample_location": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].flow_rate": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.64
+  },
+  "$[].concentration_method": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pasteurized": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_type": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].extraction_method": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].major_lab_method": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].inhibition_detect": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].ntc_amplify": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_gene_target_agg": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_avg_conc": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_units": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].lod_sewage": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_detect": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_avg_conc_lin": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_flowpop_lin": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.62
+  },
+  "$[].rec_eff_percent": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].rec_eff_target_name": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.95
+  },
+  "$[].rec_eff_spike_matrix": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.95
+  },
+  "$[].rec_eff_spike_conc": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.95
+  },
+  "$[].date_updated": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].pcr_target_mic_lin": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.68
+  },
+  "$[].hum_frac_target_mic": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.75
+  },
+  "$[].hum_frac_mic_conc": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.68
+  },
+  "$[].hum_frac_mic_unit": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.67
+  },
+  "$[].inhibition_adjust": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.31
+  }
+}
