@@ -9,6 +9,7 @@ from compare import compare
 from datetime import datetime
 from values import extract_values 
 from value_drift import compare_values
+from healer import heal
 
 def save_history(name, data): 
     folder = f'snapshots/history/{name}' 
@@ -32,14 +33,21 @@ def process(name, data):
     snap_path = f'snapshots/{name}_snapshot.json'
     fp_path = f'snapshots/{name}_fingerprint.json'
     new_fp = fingerprint(data)
-
     old_fp = load_json(fp_path)
+    old_data = load_json(snap_path)
+
     if old_fp:
-        print(f'[{name}] structure drift:', compare(old_fp, new_fp))
+        report = compare(old_fp, new_fp)
+        print(f'[{name}] structure drift:', report)
+        if old_data:
+            data, decision = heal(name, data, old_data, old_fp, new_fp, report)
+            if decision:
+                print(f'[{name}] heal decision:', decision['action'])
+            if decision and decision['action'] == 'patch_applied':
+                new_fp = fingerprint(data)
     else:
         print(f'[{name}] first run, nothing to compare yet')
 
-    old_data = load_json(snap_path)
     if old_data:
         old_numbers, old_nulls = extract_values(old_data)
         new_numbers, new_nulls = extract_values(data)

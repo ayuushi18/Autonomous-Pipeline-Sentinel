@@ -5,6 +5,18 @@
     },
     "presence": null
   },
+  "$.count": {
+    "types": {
+      "int": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.mean": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
   "$.results": {
     "types": {
       "list": 1.0
@@ -17,25 +29,13 @@
     },
     "presence": null
   },
-  "$.results[].company": {
-    "types": {
-      "dict": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].company.__CLASS__": {
+  "$.results[].created": {
     "types": {
       "str": 1.0
     },
     "presence": 1.0
   },
-  "$.results[].company.display_name": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].redirect_url": {
+  "$.results[].title": {
     "types": {
       "str": 1.0
     },
@@ -47,93 +47,39 @@
     },
     "presence": 1.0
   },
+  "$.results[].company": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].company.display_name": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].company.__CLASS__": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
   "$.results[].description": {
     "types": {
       "str": 1.0
     },
     "presence": 1.0
   },
-  "$.results[].created": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].id": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].salary_max": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].salary_is_predicted": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].salary_min": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].title": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].category": {
-    "types": {
-      "dict": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].category.__CLASS__": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].category.tag": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].category.label": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].longitude": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].__CLASS__": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].latitude": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
   "$.results[].location": {
     "types": {
       "dict": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].location.display_name": {
+    "types": {
+      "str": 1.0
     },
     "presence": 1.0
   },
@@ -155,7 +101,73 @@
     },
     "presence": null
   },
-  "$.results[].location.display_name": {
+  "$.results[].category": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].category.tag": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].category.__CLASS__": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].category.label": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].salary_max": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].redirect_url": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].latitude": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].salary_is_predicted": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].longitude": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].salary_min": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].__CLASS__": {
     "types": {
       "str": 1.0
     },
@@ -167,21 +179,9 @@
     },
     "presence": 0.4
   },
-  "$.mean": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
   "$.__CLASS__": {
     "types": {
       "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.count": {
-    "types": {
-      "int": 1.0
     },
     "presence": 1.0
   }

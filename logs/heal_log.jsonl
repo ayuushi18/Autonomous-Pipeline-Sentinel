@@ -1,0 +1,1 @@
+{"source": "transit", "action": "no_action", "reason": "no confident rename match", "added": [], "removed": ["$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty", "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty"], "time": "2026-10-10T12:21:21"}
