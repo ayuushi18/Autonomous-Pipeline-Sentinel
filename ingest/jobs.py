@@ -1,13 +1,24 @@
+import os
 import requests
-import json
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def fetch():
-    r = requests.get('https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=91f4b031&app_key=d7fd736eb5ef8e2db7b9a798a204fcfe&what=data%20scientist&where=austin')
-    data = r.json()
-    json.dump(data, open('snapshot.json', 'w'))
+    r = requests.get(
+        'https://api.adzuna.com/v1/api/jobs/us/search/1',
+        params={
+            'app_id': os.getenv('ADZUNA_APP_ID'),
+            'app_key': os.getenv('ADZUNA_APP_KEY'),
+            'what': 'data scientist',
+            'where': 'austin'
+        },
+        timeout=15
+    )
     r.raise_for_status()
     return r.json()
-
+    
 if __name__ == "__main__":
     data = fetch()
     json.dump(data, open('snapshots/jobs_snapshot.json', 'w'))

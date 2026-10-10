@@ -6,17 +6,19 @@ try:
     from ingest.rename_finder import find_renames
     from ingest.patcher import build_patch, apply_patch
     from ingest.validator import load_history, validate_patch
+    from ingest.explainer import explain
 except ImportError:
     from rename_finder import find_renames
     from patcher import build_patch, apply_patch
     from validator import load_history, validate_patch
+    from explainer import explain
 
 LOG_PATH = 'logs/heal_log.jsonl'
-
 
 def log_decision(entry):
     os.makedirs('logs', exist_ok=True)
     entry['time'] = datetime.now().isoformat(timespec='seconds')
+    entry['explanation'] = explain(entry)
     with open(LOG_PATH, 'a') as f:
         f.write(json.dumps(entry) + '\n')
 
