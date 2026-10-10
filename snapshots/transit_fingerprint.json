@@ -69,7 +69,7 @@
     "types": {
       "list": 1.0
     },
-    "presence": 0.991
+    "presence": 0.995
   },
   "$[].tripUpdate.stopTimeUpdate[]": {
     "types": {
@@ -80,6 +80,18 @@
   "$[].tripUpdate.stopTimeUpdate[].stopSequence": {
     "types": {
       "int": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.stopTimeUpdate[].arrival": {
+    "types": {
+      "dict": 1.0
+    },
+    "presence": 0.307
+  },
+  "$[].tripUpdate.stopTimeUpdate[].arrival.time": {
+    "types": {
+      "str": 1.0
     },
     "presence": 1.0
   },
@@ -95,31 +107,19 @@
     },
     "presence": 1.0
   },
-  "$[].tripUpdate.timestamp": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$[].tripUpdate.stopTimeUpdate[].arrival": {
-    "types": {
-      "dict": 1.0
-    },
-    "presence": 0.397
-  },
-  "$[].tripUpdate.stopTimeUpdate[].arrival.time": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
   "$[].tripUpdate.vehicle": {
     "types": {
       "dict": 1.0
     },
-    "presence": 0.059
+    "presence": 0.056
   },
   "$[].tripUpdate.vehicle.id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$[].tripUpdate.timestamp": {
     "types": {
       "str": 1.0
     },
@@ -129,7 +129,7 @@
     "types": {
       "dict": 1.0
     },
-    "presence": 0.033
+    "presence": 0.024
   },
   "$[].tripUpdate.stopTimeUpdate[].departure.time": {
     "types": {
@@ -141,12 +141,12 @@
     "types": {
       "int": 1.0
     },
-    "presence": 0.005
+    "presence": 0.014
   },
   "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty": {
     "types": {
       "int": 1.0
     },
-    "presence": 0.004
+    "presence": 0.015
   }
 }

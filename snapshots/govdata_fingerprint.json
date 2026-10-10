@@ -87,7 +87,7 @@
     "types": {
       "str": 1.0
     },
-    "presence": 0.64
+    "presence": 0.61
   },
   "$[].concentration_method": {
     "types": {
@@ -124,6 +124,12 @@
       "str": 1.0
     },
     "presence": 1.0
+  },
+  "$[].inhibition_adjust": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.37
   },
   "$[].ntc_amplify": {
     "types": {
@@ -177,7 +183,31 @@
     "types": {
       "str": 1.0
     },
-    "presence": 0.62
+    "presence": 0.6
+  },
+  "$[].pcr_target_mic_lin": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.72
+  },
+  "$[].hum_frac_target_mic": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.74
+  },
+  "$[].hum_frac_mic_conc": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.72
+  },
+  "$[].hum_frac_mic_unit": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 0.71
   },
   "$[].rec_eff_percent": {
     "types": {
@@ -189,54 +219,24 @@
     "types": {
       "str": 1.0
     },
-    "presence": 0.95
+    "presence": 0.99
   },
   "$[].rec_eff_spike_matrix": {
     "types": {
       "str": 1.0
     },
-    "presence": 0.95
+    "presence": 0.99
   },
   "$[].rec_eff_spike_conc": {
     "types": {
       "str": 1.0
     },
-    "presence": 0.95
+    "presence": 0.99
   },
   "$[].date_updated": {
     "types": {
       "str": 1.0
     },
     "presence": 1.0
-  },
-  "$[].pcr_target_mic_lin": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.68
-  },
-  "$[].hum_frac_target_mic": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.75
-  },
-  "$[].hum_frac_mic_conc": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.68
-  },
-  "$[].hum_frac_mic_unit": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.67
-  },
-  "$[].inhibition_adjust": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.31
   }
 }

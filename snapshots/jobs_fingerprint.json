@@ -35,37 +35,43 @@
     },
     "presence": 1.0
   },
-  "$.results[].description": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
   "$.results[].redirect_url": {
     "types": {
       "str": 1.0
     },
     "presence": 1.0
   },
+  "$.results[].adref": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].description": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].created": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].id": {
+    "types": {
+      "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].salary_max": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
   "$.results[].salary_is_predicted": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].title": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].contract_time": {
-    "types": {
-      "str": 1.0
-    },
-    "presence": 0.5
-  },
-  "$.results[].__CLASS__": {
     "types": {
       "str": 1.0
     },
@@ -77,13 +83,7 @@
     },
     "presence": 1.0
   },
-  "$.results[].latitude": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].created": {
+  "$.results[].title": {
     "types": {
       "str": 1.0
     },
@@ -92,12 +92,6 @@
   "$.results[].category": {
     "types": {
       "dict": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].category.label": {
-    "types": {
-      "str": 1.0
     },
     "presence": 1.0
   },
@@ -113,15 +107,33 @@
     },
     "presence": 1.0
   },
-  "$.results[].location": {
+  "$.results[].category.label": {
     "types": {
-      "dict": 1.0
+      "str": 1.0
     },
     "presence": 1.0
   },
-  "$.results[].location.display_name": {
+  "$.results[].longitude": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].__CLASS__": {
     "types": {
       "str": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].latitude": {
+    "types": {
+      "float": 1.0
+    },
+    "presence": 1.0
+  },
+  "$.results[].location": {
+    "types": {
+      "dict": 1.0
     },
     "presence": 1.0
   },
@@ -143,29 +155,17 @@
     },
     "presence": null
   },
-  "$.results[].salary_max": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
-  },
-  "$.results[].adref": {
+  "$.results[].location.display_name": {
     "types": {
       "str": 1.0
     },
     "presence": 1.0
   },
-  "$.results[].id": {
+  "$.results[].contract_time": {
     "types": {
       "str": 1.0
     },
-    "presence": 1.0
-  },
-  "$.results[].longitude": {
-    "types": {
-      "float": 1.0
-    },
-    "presence": 1.0
+    "presence": 0.4
   },
   "$.mean": {
     "types": {
