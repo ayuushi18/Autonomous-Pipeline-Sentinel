@@ -1,0 +1,1682 @@
+[
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].location.display_name",
+      "style": "suffix",
+      "new_path": "$.results[].location.display_name_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].company.__CLASS__",
+      "style": "suffix",
+      "new_path": "$.results[].company.__CLASS___v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].adref",
+      "style": "suffix",
+      "new_path": "$.results[].adref_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_max",
+      "style": "suffix",
+      "new_path": "$.results[].salary_max_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_min",
+      "style": "suffix",
+      "new_path": "$.results[].salary_min_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].title",
+      "style": "suffix",
+      "new_path": "$.results[].title_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.mean",
+      "style": "suffix",
+      "new_path": "$.mean_v2",
+      "occurrences": 1
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].longitude",
+      "style": "suffix",
+      "new_path": "$.results[].longitude_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].category.tag",
+      "style": "suffix",
+      "new_path": "$.results[].category.tag_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].redirect_url",
+      "style": "suffix",
+      "new_path": "$.results[].redirect_url_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].category.tag",
+      "style": "prefix",
+      "new_path": "$.results[].category.new_tag",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_is_predicted",
+      "style": "prefix",
+      "new_path": "$.results[].new_salary_is_predicted",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].created",
+      "style": "prefix",
+      "new_path": "$.results[].new_created",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].location.display_name",
+      "style": "prefix",
+      "new_path": "$.results[].location.new_display_name",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].__CLASS__",
+      "style": "prefix",
+      "new_path": "$.results[].new___CLASS__",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].description",
+      "style": "prefix",
+      "new_path": "$.results[].new_description",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].location.display_name",
+      "style": "prefix",
+      "new_path": "$.results[].location.new_display_name",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].created",
+      "style": "prefix",
+      "new_path": "$.results[].new_created",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].redirect_url",
+      "style": "prefix",
+      "new_path": "$.results[].new_redirect_url",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].location.__CLASS__",
+      "style": "prefix",
+      "new_path": "$.results[].location.new___CLASS__",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].location.display_name",
+      "style": "case",
+      "new_path": "$.results[].location.displayName",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_max",
+      "style": "case",
+      "new_path": "$.results[].salaryMax",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "case",
+      "new_path": "$.results[].Latitude",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_is_predicted",
+      "style": "case",
+      "new_path": "$.results[].salaryIsPredicted",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].description",
+      "style": "case",
+      "new_path": "$.results[].Description",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].company.__CLASS__",
+      "style": "case",
+      "new_path": "$.results[].company.Class",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].id",
+      "style": "case",
+      "new_path": "$.results[].Id",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].redirect_url",
+      "style": "case",
+      "new_path": "$.results[].redirectUrl",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].category.__CLASS__",
+      "style": "case",
+      "new_path": "$.results[].category.Class",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].company.__CLASS__",
+      "style": "case",
+      "new_path": "$.results[].company.Class",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_max",
+      "style": "opaque",
+      "new_path": "$.results[].f_bngkb",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_is_predicted",
+      "style": "opaque",
+      "new_path": "$.results[].f_vaqju",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].company.display_name",
+      "style": "opaque",
+      "new_path": "$.results[].company.f_kffah",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].longitude",
+      "style": "opaque",
+      "new_path": "$.results[].f_kafkj",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].category.__CLASS__",
+      "style": "opaque",
+      "new_path": "$.results[].category.f_lenqx",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.__CLASS__",
+      "style": "opaque",
+      "new_path": "$.f_dtylv",
+      "occurrences": 1
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "opaque",
+      "new_path": "$.results[].f_thufm",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_min",
+      "style": "opaque",
+      "new_path": "$.results[].f_tirlr",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.__CLASS__",
+      "style": "opaque",
+      "new_path": "$.f_jaywk",
+      "occurrences": 1
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$.__CLASS__",
+      "style": "opaque",
+      "new_path": "$.f_pjvkp",
+      "occurrences": 1
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "suffix",
+      "new_path": "$.results[].latitude_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_max",
+      "style": "opaque",
+      "new_path": "$.results[].f_ayiho",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "suffix",
+      "new_path": "$.results[].latitude_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_max",
+      "style": "opaque",
+      "new_path": "$.results[].f_gnfyg",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].longitude",
+      "style": "case",
+      "new_path": "$.results[].Longitude",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "opaque",
+      "new_path": "$.results[].f_fskrr",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].longitude",
+      "style": "suffix",
+      "new_path": "$.results[].longitude_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].longitude",
+      "style": "suffix",
+      "new_path": "$.results[].longitude_v2",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].latitude",
+      "style": "prefix",
+      "new_path": "$.results[].new_latitude",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "jobs",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$.results[].salary_min",
+      "style": "opaque",
+      "new_path": "$.results[].f_vumit",
+      "occurrences": 10
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].inhibition_detect",
+      "style": "suffix",
+      "new_path": "$[].inhibition_detect_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].population_served",
+      "style": "suffix",
+      "new_path": "$[].population_served_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].site",
+      "style": "suffix",
+      "new_path": "$[].site_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_target",
+      "style": "suffix",
+      "new_path": "$[].pcr_target_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_gene_target_agg",
+      "style": "suffix",
+      "new_path": "$[].pcr_gene_target_agg_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_location",
+      "style": "suffix",
+      "new_path": "$[].sample_location_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].rec_eff_spike_conc",
+      "style": "suffix",
+      "new_path": "$[].rec_eff_spike_conc_v2",
+      "occurrences": 99
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].record_id",
+      "style": "suffix",
+      "new_path": "$[].record_id_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].lod_sewage",
+      "style": "suffix",
+      "new_path": "$[].lod_sewage_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_target",
+      "style": "suffix",
+      "new_path": "$[].pcr_target_v2",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].concentration_method",
+      "style": "prefix",
+      "new_path": "$[].new_concentration_method",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].date_updated",
+      "style": "prefix",
+      "new_path": "$[].new_date_updated",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].site",
+      "style": "prefix",
+      "new_path": "$[].new_site",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].source",
+      "style": "prefix",
+      "new_path": "$[].new_source",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_matrix",
+      "style": "prefix",
+      "new_path": "$[].new_sample_matrix",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].population_served",
+      "style": "prefix",
+      "new_path": "$[].new_population_served",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_target",
+      "style": "prefix",
+      "new_path": "$[].new_pcr_target",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].rec_eff_target_name",
+      "style": "prefix",
+      "new_path": "$[].new_rec_eff_target_name",
+      "occurrences": 99
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].date_updated",
+      "style": "prefix",
+      "new_path": "$[].new_date_updated",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].record_id",
+      "style": "prefix",
+      "new_path": "$[].new_record_id",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_target",
+      "style": "case",
+      "new_path": "$[].pcrTarget",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].state_territory",
+      "style": "case",
+      "new_path": "$[].stateTerritory",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_type",
+      "style": "case",
+      "new_path": "$[].sampleType",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].lod_sewage",
+      "style": "case",
+      "new_path": "$[].lodSewage",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].extraction_method",
+      "style": "case",
+      "new_path": "$[].extractionMethod",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].rec_eff_spike_conc",
+      "style": "case",
+      "new_path": "$[].recEffSpikeConc",
+      "occurrences": 99
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].extraction_method",
+      "style": "case",
+      "new_path": "$[].extractionMethod",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_type",
+      "style": "case",
+      "new_path": "$[].pcrType",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_gene_target_agg",
+      "style": "case",
+      "new_path": "$[].pcrGeneTargetAgg",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].date_updated",
+      "style": "case",
+      "new_path": "$[].dateUpdated",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].lod_sewage",
+      "style": "opaque",
+      "new_path": "$[].f_osxri",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].county_fips",
+      "style": "opaque",
+      "new_path": "$[].f_lskmg",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].county_fips",
+      "style": "opaque",
+      "new_path": "$[].f_inhcu",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].concentration_method",
+      "style": "opaque",
+      "new_path": "$[].f_bexat",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_location",
+      "style": "opaque",
+      "new_path": "$[].f_rgymh",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_matrix",
+      "style": "opaque",
+      "new_path": "$[].f_taeny",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pcr_target_avg_conc_lin",
+      "style": "opaque",
+      "new_path": "$[].f_kbggo",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].rec_eff_spike_conc",
+      "style": "opaque",
+      "new_path": "$[].f_ouxxz",
+      "occurrences": 99
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].sample_location",
+      "style": "opaque",
+      "new_path": "$[].f_xxxay",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "govdata",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].pasteurized",
+      "style": "opaque",
+      "new_path": "$[].f_yedpw",
+      "occurrences": 100
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.timestamp",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.timestamp_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stopSequence_v2",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.trip.directionId_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.time_v2",
+      "occurrences": 12278
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stopId_v2",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.time_v2",
+      "occurrences": 12278
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.startDate",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.trip.startDate_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.startTime",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.trip.startTime_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.tripId",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.trip.tripId_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "suffix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship_v2",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.timestamp",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.new_timestamp",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
+      "occurrences": 1318
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.routeId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_routeId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.timestamp",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.new_timestamp",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.timestamp",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.new_timestamp",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].id",
+      "style": "prefix",
+      "new_path": "$[].new_id",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.tripId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_tripId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.startTime",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_startTime",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.tripId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_tripId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "prefix",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_directionId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.scheduleRelationship",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.schedule_relationship",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "case",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.direction_id",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.routeId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.route_id",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.timestamp",
+      "style": "case",
+      "new_path": "$[].tripUpdate.Timestamp",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_id",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "case",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
+      "style": "case",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.Time",
+      "occurrences": 1318
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.routeId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.route_id",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "case",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.scheduleRelationship",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.schedule_relationship",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.vehicle.id",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.vehicle.f_jfxln",
+      "occurrences": 497
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.f_muagm",
+      "occurrences": 12278
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.scheduleRelationship",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_kropp",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.scheduleRelationship",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_slizc",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.startDate",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_xupui",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.vehicle.id",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.vehicle.f_dboov",
+      "occurrences": 497
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.f_tjljx",
+      "occurrences": 12278
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_esbss",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.vehicle.id",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.vehicle.f_uaozv",
+      "occurrences": 497
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "opaque",
+    "outcome": "healed_correct",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.startDate",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_zrjry",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].new_stopSequence",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stopSequence_v2",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "suffix",
+      "new_path": "$[].tripUpdate.trip.directionId_v2",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_directionId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].f_phhwb",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.direction_id",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "prefix",
+      "new_path": "$[].tripUpdate.trip.new_directionId",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].f_unnya",
+      "occurrences": 13282
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "missed",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "opaque",
+      "new_path": "$[].tripUpdate.trip.f_bvpyg",
+      "occurrences": 842
+    }
+  },
+  {
+    "source": "transit",
+    "scenario": "rename+scale",
+    "outcome": "rejected",
+    "info": {
+      "type": "rename",
+      "path": "$[].tripUpdate.trip.directionId",
+      "style": "case",
+      "new_path": "$[].tripUpdate.trip.direction_id",
+      "occurrences": 842
+    }
+  }
+]

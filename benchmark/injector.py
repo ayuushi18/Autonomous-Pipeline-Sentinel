@@ -100,12 +100,12 @@ def _candidates(data):
     }
 
 
-def _try_inject(data, drift_type, target, rng):
+def _try_inject(data, drift_type, target, rng, style=None):
     mutated = copy.deepcopy(data)
     info = {'type': drift_type, 'path': target}
 
     if drift_type == 'rename':
-        style = rng.choice(RENAME_STYLES)
+        style = style or rng.choice(RENAME_STYLES)
         new_key = _new_key(_last(target), style, rng)
         info['style'] = style
         info['new_path'] = _parent(target) + '.' + new_key
@@ -159,10 +159,10 @@ def _try_inject(data, drift_type, target, rng):
     return mutated, info
 
 
-def inject(data, drift_type, rng):
+def inject(data, drift_type, rng, style=None):
     options = sorted(_candidates(data)[drift_type])
     for target in rng.sample(options, min(len(options), 10)):
-        result = _try_inject(data, drift_type, target, rng)
+        result = _try_inject(data, drift_type, target, rng, style)
         if result is not None:
             return result
     return None
