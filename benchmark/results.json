@@ -1,0 +1,3735 @@
+{
+  "trials_per_type": 20,
+  "injected": [
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 0,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].description",
+        "style": "case",
+        "new_path": "$.results[].Description",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 1,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].salary_min",
+        "style": "prefix",
+        "new_path": "$.results[].new_salary_min",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 2,
+      "info": {
+        "type": "rename",
+        "path": "$.__CLASS__",
+        "style": "suffix",
+        "new_path": "$.__CLASS___v2",
+        "occurrences": 1
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 3,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].title",
+        "style": "case",
+        "new_path": "$.results[].Title",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 4,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].category.label",
+        "style": "case",
+        "new_path": "$.results[].category.Label",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 5,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].adref",
+        "style": "prefix",
+        "new_path": "$.results[].new_adref",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 6,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].id",
+        "style": "suffix",
+        "new_path": "$.results[].id_v2",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 7,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].description",
+        "style": "opaque",
+        "new_path": "$.results[].f_mvtzz",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 8,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].longitude",
+        "style": "case",
+        "new_path": "$.results[].Longitude",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 9,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].salary_is_predicted",
+        "style": "suffix",
+        "new_path": "$.results[].salary_is_predicted_v2",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 10,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].id",
+        "style": "suffix",
+        "new_path": "$.results[].id_v2",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 11,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].category.tag",
+        "style": "case",
+        "new_path": "$.results[].category.Tag",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 12,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].salary_max",
+        "style": "suffix",
+        "new_path": "$.results[].salary_max_v2",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 13,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].salary_is_predicted",
+        "style": "opaque",
+        "new_path": "$.results[].f_shwzz",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 14,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].redirect_url",
+        "style": "case",
+        "new_path": "$.results[].redirectUrl",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 15,
+      "info": {
+        "type": "rename",
+        "path": "$.__CLASS__",
+        "style": "suffix",
+        "new_path": "$.__CLASS___v2",
+        "occurrences": 1
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 16,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].adref",
+        "style": "opaque",
+        "new_path": "$.results[].f_sshow",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 17,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].redirect_url",
+        "style": "prefix",
+        "new_path": "$.results[].new_redirect_url",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 18,
+      "info": {
+        "type": "rename",
+        "path": "$.results[].category.__CLASS__",
+        "style": "case",
+        "new_path": "$.results[].category.Class",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "rename",
+      "trial": 19,
+      "info": {
+        "type": "rename",
+        "path": "$.mean",
+        "style": "prefix",
+        "new_path": "$.new_mean",
+        "occurrences": 1
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 0,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].salary_is_predicted",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 1,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].category.label",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 2,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].company.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 3,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].company.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 4,
+      "info": {
+        "type": "remove",
+        "path": "$.count",
+        "occurrences": 1
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 5,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].company.display_name",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 6,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].category.label",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 7,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].salary_is_predicted",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 8,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].category.tag",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 9,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].location.display_name",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 10,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].salary_max",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 11,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].created",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 12,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].salary_is_predicted",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 13,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].description",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 14,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].location.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 15,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].company.display_name",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 16,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].salary_max",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 17,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].category.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 18,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].description",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "remove",
+      "trial": 19,
+      "info": {
+        "type": "remove",
+        "path": "$.results[].description",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 0,
+      "info": {
+        "type": "type_change",
+        "path": "$.count",
+        "occurrences": 1
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 1,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].created",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 2,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].category.tag",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 3,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].location.display_name",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 4,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].salary_max",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 5,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].id",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 6,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].category.label",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 7,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].category.label",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 8,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].longitude",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 9,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].longitude",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 10,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].location.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 11,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].adref",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 12,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].category.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 13,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].category.tag",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 14,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].latitude",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 15,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].company.__CLASS__",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 16,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].latitude",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 17,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].salary_max",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 18,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].description",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "type_change",
+      "trial": 19,
+      "info": {
+        "type": "type_change",
+        "path": "$.results[].redirect_url",
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 0,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_min",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 1,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].latitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 2,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_max",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 3,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].latitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 4,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 5,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_max",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 6,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_min",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 7,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_min",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 8,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 9,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_min",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 10,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_min",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 11,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].latitude",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 12,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 13,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 14,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_max",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 15,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 16,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].longitude",
+        "factor": 100,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 17,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_max",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 18,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].salary_max",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "unit_scale",
+      "trial": 19,
+      "info": {
+        "type": "unit_scale",
+        "path": "$.results[].latitude",
+        "factor": 1000,
+        "occurrences": 10
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 0,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].title",
+        "occurrences": 8
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 1,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].redirect_url",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 2,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_min",
+        "occurrences": 2
+      },
+      "detected": true,
+      "localized": false
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 3,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_is_predicted",
+        "occurrences": 6
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 4,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_max",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 5,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].__CLASS__",
+        "occurrences": 6
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 6,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].location.__CLASS__",
+        "occurrences": 7
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 7,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].title",
+        "occurrences": 8
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 8,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].longitude",
+        "occurrences": 9
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 9,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_min",
+        "occurrences": 6
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 10,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].__CLASS__",
+        "occurrences": 7
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 11,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_is_predicted",
+        "occurrences": 3
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 12,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].category.label",
+        "occurrences": 4
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 13,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].company.display_name",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 14,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].latitude",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 15,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].category.tag",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 16,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].salary_max",
+        "occurrences": 8
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 17,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].company.display_name",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 18,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].description",
+        "occurrences": 5
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "jobs",
+      "type": "null_out",
+      "trial": 19,
+      "info": {
+        "type": "null_out",
+        "path": "$.results[].company.display_name",
+        "occurrences": 9
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 0,
+      "info": {
+        "type": "rename",
+        "path": "$[].rec_eff_spike_conc",
+        "style": "case",
+        "new_path": "$[].recEffSpikeConc",
+        "occurrences": 99
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 1,
+      "info": {
+        "type": "rename",
+        "path": "$[].concentration_method",
+        "style": "suffix",
+        "new_path": "$[].concentration_method_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 2,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_target_avg_conc",
+        "style": "case",
+        "new_path": "$[].pcrTargetAvgConc",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 3,
+      "info": {
+        "type": "rename",
+        "path": "$[].rec_eff_spike_conc",
+        "style": "opaque",
+        "new_path": "$[].f_emibb",
+        "occurrences": 99
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 4,
+      "info": {
+        "type": "rename",
+        "path": "$[].record_id",
+        "style": "prefix",
+        "new_path": "$[].new_record_id",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 5,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_gene_target_agg",
+        "style": "opaque",
+        "new_path": "$[].f_luqga",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 6,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_target_detect",
+        "style": "suffix",
+        "new_path": "$[].pcr_target_detect_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 7,
+      "info": {
+        "type": "rename",
+        "path": "$[].concentration_method",
+        "style": "suffix",
+        "new_path": "$[].concentration_method_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 8,
+      "info": {
+        "type": "rename",
+        "path": "$[].counties_served",
+        "style": "case",
+        "new_path": "$[].countiesServed",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 9,
+      "info": {
+        "type": "rename",
+        "path": "$[].rec_eff_percent",
+        "style": "opaque",
+        "new_path": "$[].f_uvfft",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 10,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_target_detect",
+        "style": "opaque",
+        "new_path": "$[].f_hneco",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 11,
+      "info": {
+        "type": "rename",
+        "path": "$[].pasteurized",
+        "style": "opaque",
+        "new_path": "$[].f_igevx",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 12,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_target_avg_conc_lin",
+        "style": "suffix",
+        "new_path": "$[].pcr_target_avg_conc_lin_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 13,
+      "info": {
+        "type": "rename",
+        "path": "$[].ntc_amplify",
+        "style": "suffix",
+        "new_path": "$[].ntc_amplify_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 14,
+      "info": {
+        "type": "rename",
+        "path": "$[].major_lab_method",
+        "style": "prefix",
+        "new_path": "$[].new_major_lab_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 15,
+      "info": {
+        "type": "rename",
+        "path": "$[].pcr_target",
+        "style": "opaque",
+        "new_path": "$[].f_lcgzg",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 16,
+      "info": {
+        "type": "rename",
+        "path": "$[].source",
+        "style": "prefix",
+        "new_path": "$[].new_source",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 17,
+      "info": {
+        "type": "rename",
+        "path": "$[].sample_type",
+        "style": "prefix",
+        "new_path": "$[].new_sample_type",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 18,
+      "info": {
+        "type": "rename",
+        "path": "$[].state_territory",
+        "style": "suffix",
+        "new_path": "$[].state_territory_v2",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "rename",
+      "trial": 19,
+      "info": {
+        "type": "rename",
+        "path": "$[].pasteurized",
+        "style": "case",
+        "new_path": "$[].Pasteurized",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 0,
+      "info": {
+        "type": "remove",
+        "path": "$[].pcr_gene_target_agg",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 1,
+      "info": {
+        "type": "remove",
+        "path": "$[].population_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 2,
+      "info": {
+        "type": "remove",
+        "path": "$[].pasteurized",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 3,
+      "info": {
+        "type": "remove",
+        "path": "$[].county_fips",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 4,
+      "info": {
+        "type": "remove",
+        "path": "$[].sample_type",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 5,
+      "info": {
+        "type": "remove",
+        "path": "$[].rec_eff_spike_matrix",
+        "occurrences": 99
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 6,
+      "info": {
+        "type": "remove",
+        "path": "$[].counties_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 7,
+      "info": {
+        "type": "remove",
+        "path": "$[].source",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 8,
+      "info": {
+        "type": "remove",
+        "path": "$[].sample_collect_date",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 9,
+      "info": {
+        "type": "remove",
+        "path": "$[].major_lab_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 10,
+      "info": {
+        "type": "remove",
+        "path": "$[].pasteurized",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 11,
+      "info": {
+        "type": "remove",
+        "path": "$[].rec_eff_percent",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 12,
+      "info": {
+        "type": "remove",
+        "path": "$[].pcr_target_detect",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 13,
+      "info": {
+        "type": "remove",
+        "path": "$[].pcr_target_detect",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 14,
+      "info": {
+        "type": "remove",
+        "path": "$[].counties_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 15,
+      "info": {
+        "type": "remove",
+        "path": "$[].pcr_gene_target_agg",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 16,
+      "info": {
+        "type": "remove",
+        "path": "$[].counties_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 17,
+      "info": {
+        "type": "remove",
+        "path": "$[].ntc_amplify",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 18,
+      "info": {
+        "type": "remove",
+        "path": "$[].inhibition_detect",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "remove",
+      "trial": 19,
+      "info": {
+        "type": "remove",
+        "path": "$[].ntc_amplify",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 0,
+      "info": {
+        "type": "type_change",
+        "path": "$[].sample_matrix",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 1,
+      "info": {
+        "type": "type_change",
+        "path": "$[].rec_eff_spike_matrix",
+        "occurrences": 99
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 2,
+      "info": {
+        "type": "type_change",
+        "path": "$[].population_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 3,
+      "info": {
+        "type": "type_change",
+        "path": "$[].inhibition_detect",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 4,
+      "info": {
+        "type": "type_change",
+        "path": "$[].sample_matrix",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 5,
+      "info": {
+        "type": "type_change",
+        "path": "$[].lod_sewage",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 6,
+      "info": {
+        "type": "type_change",
+        "path": "$[].pcr_target",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 7,
+      "info": {
+        "type": "type_change",
+        "path": "$[].pcr_target_units",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 8,
+      "info": {
+        "type": "type_change",
+        "path": "$[].concentration_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 9,
+      "info": {
+        "type": "type_change",
+        "path": "$[].sample_collect_date",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 10,
+      "info": {
+        "type": "type_change",
+        "path": "$[].concentration_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 11,
+      "info": {
+        "type": "type_change",
+        "path": "$[].pcr_target_detect",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 12,
+      "info": {
+        "type": "type_change",
+        "path": "$[].major_lab_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 13,
+      "info": {
+        "type": "type_change",
+        "path": "$[].sample_collect_date",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 14,
+      "info": {
+        "type": "type_change",
+        "path": "$[].population_served",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 15,
+      "info": {
+        "type": "type_change",
+        "path": "$[].sample_collect_date",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 16,
+      "info": {
+        "type": "type_change",
+        "path": "$[].extraction_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 17,
+      "info": {
+        "type": "type_change",
+        "path": "$[].rec_eff_spike_conc",
+        "occurrences": 99
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 18,
+      "info": {
+        "type": "type_change",
+        "path": "$[].record_id",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "type_change",
+      "trial": 19,
+      "info": {
+        "type": "type_change",
+        "path": "$[].major_lab_method",
+        "occurrences": 100
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 0,
+      "info": {
+        "type": "null_out",
+        "path": "$[].record_id",
+        "occurrences": 65
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 1,
+      "info": {
+        "type": "null_out",
+        "path": "$[].date_updated",
+        "occurrences": 65
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 2,
+      "info": {
+        "type": "null_out",
+        "path": "$[].major_lab_method",
+        "occurrences": 61
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 3,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_target",
+        "occurrences": 50
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 4,
+      "info": {
+        "type": "null_out",
+        "path": "$[].sample_location",
+        "occurrences": 64
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 5,
+      "info": {
+        "type": "null_out",
+        "path": "$[].rec_eff_spike_matrix",
+        "occurrences": 55
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 6,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_gene_target_agg",
+        "occurrences": 70
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 7,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_gene_target_agg",
+        "occurrences": 60
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 8,
+      "info": {
+        "type": "null_out",
+        "path": "$[].lod_sewage",
+        "occurrences": 63
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 9,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_target_avg_conc_lin",
+        "occurrences": 58
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 10,
+      "info": {
+        "type": "null_out",
+        "path": "$[].sample_id",
+        "occurrences": 69
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 11,
+      "info": {
+        "type": "null_out",
+        "path": "$[].source",
+        "occurrences": 51
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 12,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pasteurized",
+        "occurrences": 66
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 13,
+      "info": {
+        "type": "null_out",
+        "path": "$[].population_served",
+        "occurrences": 50
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 14,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_target_avg_conc",
+        "occurrences": 51
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 15,
+      "info": {
+        "type": "null_out",
+        "path": "$[].pcr_target_avg_conc",
+        "occurrences": 53
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 16,
+      "info": {
+        "type": "null_out",
+        "path": "$[].rec_eff_spike_matrix",
+        "occurrences": 57
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 17,
+      "info": {
+        "type": "null_out",
+        "path": "$[].population_served",
+        "occurrences": 55
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 18,
+      "info": {
+        "type": "null_out",
+        "path": "$[].extraction_method",
+        "occurrences": 55
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "govdata",
+      "type": "null_out",
+      "trial": 19,
+      "info": {
+        "type": "null_out",
+        "path": "$[].county_fips",
+        "occurrences": 63
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 0,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.vehicle.id",
+        "style": "case",
+        "new_path": "$[].tripUpdate.vehicle.Id",
+        "occurrences": 497
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 1,
+      "info": {
+        "type": "rename",
+        "path": "$[].id",
+        "style": "case",
+        "new_path": "$[].Id",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 2,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+        "style": "case",
+        "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_id",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 3,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.directionId",
+        "style": "suffix",
+        "new_path": "$[].tripUpdate.trip.directionId_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 4,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
+        "style": "prefix",
+        "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
+        "occurrences": 1318
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 5,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.directionId",
+        "style": "case",
+        "new_path": "$[].tripUpdate.trip.direction_id",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 6,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.startTime",
+        "style": "suffix",
+        "new_path": "$[].tripUpdate.trip.startTime_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 7,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.timestamp",
+        "style": "case",
+        "new_path": "$[].tripUpdate.Timestamp",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 8,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.startTime",
+        "style": "opaque",
+        "new_path": "$[].tripUpdate.trip.f_numvo",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 9,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
+        "style": "prefix",
+        "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
+        "occurrences": 1318
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 10,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.routeId",
+        "style": "prefix",
+        "new_path": "$[].tripUpdate.trip.new_routeId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 11,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+        "style": "case",
+        "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.Time",
+        "occurrences": 12278
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 12,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "style": "opaque",
+        "new_path": "$[].tripUpdate.stopTimeUpdate[].f_ypdwv",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 13,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.directionId",
+        "style": "suffix",
+        "new_path": "$[].tripUpdate.trip.directionId_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 14,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.routeId",
+        "style": "prefix",
+        "new_path": "$[].tripUpdate.trip.new_routeId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 15,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.routeId",
+        "style": "suffix",
+        "new_path": "$[].tripUpdate.trip.routeId_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 16,
+      "info": {
+        "type": "rename",
+        "path": "$[].id",
+        "style": "suffix",
+        "new_path": "$[].id_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 17,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.timestamp",
+        "style": "suffix",
+        "new_path": "$[].tripUpdate.timestamp_v2",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 18,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.routeId",
+        "style": "opaque",
+        "new_path": "$[].tripUpdate.trip.f_fgkze",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "rename",
+      "trial": 19,
+      "info": {
+        "type": "rename",
+        "path": "$[].tripUpdate.trip.directionId",
+        "style": "opaque",
+        "new_path": "$[].tripUpdate.trip.f_vsfhe",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 0,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 1,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 2,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 3,
+      "info": {
+        "type": "remove",
+        "path": "$[].id",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 4,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.startDate",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 5,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.startTime",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 6,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 7,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.tripId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 8,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.routeId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 9,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.startDate",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 10,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 11,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 12,
+      "info": {
+        "type": "remove",
+        "path": "$[].id",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 13,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.vehicle.id",
+        "occurrences": 497
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 14,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 15,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.startDate",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 16,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+        "occurrences": 12278
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 17,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 18,
+      "info": {
+        "type": "remove",
+        "path": "$[].id",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "remove",
+      "trial": 19,
+      "info": {
+        "type": "remove",
+        "path": "$[].tripUpdate.trip.scheduleRelationship",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 0,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.scheduleRelationship",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 1,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.tripId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 2,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.routeId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 3,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 4,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.directionId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 5,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.startTime",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 6,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 7,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.startTime",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 8,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.vehicle.id",
+        "occurrences": 497
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 9,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+        "occurrences": 12278
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 10,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.scheduleRelationship",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 11,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+        "occurrences": 12278
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 12,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 13,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.startTime",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 14,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.directionId",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 15,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 16,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
+        "occurrences": 12278
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 17,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.trip.scheduleRelationship",
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 18,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.vehicle.id",
+        "occurrences": 497
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "type_change",
+      "trial": 19,
+      "info": {
+        "type": "type_change",
+        "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 0,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 100,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 1,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 2,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 3,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 4,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 5,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 6,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 7,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 8,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 9,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 10,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 11,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 12,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 13,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 14,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 100,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 15,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 100,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 16,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 17,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 100,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 18,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 13282
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "unit_scale",
+      "trial": 19,
+      "info": {
+        "type": "unit_scale",
+        "path": "$[].tripUpdate.trip.directionId",
+        "factor": 1000,
+        "occurrences": 842
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 0,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+        "occurrences": 7952
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 1,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 8022
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 2,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
+        "occurrences": 744
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 3,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 7949
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 4,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 488
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 5,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.routeId",
+        "occurrences": 505
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 6,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.routeId",
+        "occurrences": 488
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 7,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
+        "occurrences": 7982
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 8,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
+        "occurrences": 7901
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 9,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.tripId",
+        "occurrences": 510
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 10,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.tripId",
+        "occurrences": 502
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 11,
+      "info": {
+        "type": "null_out",
+        "path": "$[].id",
+        "occurrences": 505
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 12,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.scheduleRelationship",
+        "occurrences": 505
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 13,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.startTime",
+        "occurrences": 507
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 14,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.timestamp",
+        "occurrences": 516
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 15,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.startDate",
+        "occurrences": 514
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 16,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.tripId",
+        "occurrences": 486
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 17,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 8008
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 18,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.trip.routeId",
+        "occurrences": 498
+      },
+      "detected": true,
+      "localized": true
+    },
+    {
+      "source": "transit",
+      "type": "null_out",
+      "trial": 19,
+      "info": {
+        "type": "null_out",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "occurrences": 7972
+      },
+      "detected": true,
+      "localized": true
+    }
+  ],
+  "clean": [
+    {
+      "source": "jobs",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "jobs",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "jobs",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "jobs",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "jobs",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "govdata",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "govdata",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "govdata",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "transit",
+      "alarm": true,
+      "structure": {
+        "added": [
+          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty"
+        ],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "transit",
+      "alarm": true,
+      "structure": {
+        "added": [
+          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty"
+        ],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "transit",
+      "alarm": false,
+      "structure": {
+        "added": [],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "transit",
+      "alarm": true,
+      "structure": {
+        "added": [],
+        "removed": [
+          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty",
+          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty"
+        ],
+        "type_changed": {},
+        "presence_shift": {}
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    },
+    {
+      "source": "transit",
+      "alarm": true,
+      "structure": {
+        "added": [
+          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty",
+          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty"
+        ],
+        "removed": [],
+        "type_changed": {},
+        "presence_shift": {
+          "$[].tripUpdate.stopTimeUpdate[].arrival": {
+            "was": 0.241,
+            "now": 0.924
+          },
+          "$[].tripUpdate.vehicle": {
+            "was": 0.028,
+            "now": 0.59
+          }
+        }
+      },
+      "values": {
+        "value_shift": {},
+        "null_shift": {}
+      }
+    }
+  ],
+  "skipped": {
+    "jobs": [],
+    "govdata": [
+      "unit_scale"
+    ],
+    "transit": []
+  }
+}
