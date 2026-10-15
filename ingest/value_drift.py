@@ -11,7 +11,8 @@ def _ignored(path):
 
 def compare_values(old_numbers, new_numbers, old_nulls, new_nulls,
                    d_threshold=0.5, p_threshold=0.01,
-                   null_threshold=0.3, min_samples=5):
+                   null_threshold=0.3, min_samples=5,
+                   min_rel_change=0.1):
     value_shift = {}
     for path in new_numbers:
         if path not in old_numbers or _ignored(path):
@@ -20,13 +21,19 @@ def compare_values(old_numbers, new_numbers, old_nulls, new_nulls,
         new_vals = new_numbers[path]
         if len(old_vals) < min_samples or len(new_vals) < min_samples:
             continue
+
+        old_mean = mean(old_vals)
+        new_mean = mean(new_vals)
+        rel_change = abs(new_mean - old_mean) / max(abs(old_mean), 1e-9)
+
         d, p = ks_2samp(old_vals, new_vals)
-        if d >= d_threshold and p < p_threshold:
+        if d >= d_threshold and p < p_threshold and rel_change >= min_rel_change:
             value_shift[path] = {
                 'ks_stat': round(float(d), 3),
                 'p_value': round(float(p), 6),
-                'old_mean': round(mean(old_vals), 2),
-                'new_mean': round(mean(new_vals), 2),
+                'old_mean': round(old_mean, 2),
+                'new_mean': round(new_mean, 2),
+                'mean_change': round(rel_change, 3),
             }
 
     null_shift = {}

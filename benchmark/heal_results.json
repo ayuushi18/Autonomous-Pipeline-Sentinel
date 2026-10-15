@@ -485,9 +485,9 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].latitude",
+      "path": "$.results[].salary_max",
       "style": "suffix",
-      "new_path": "$.results[].latitude_v2",
+      "new_path": "$.results[].salary_max_v2",
       "occurrences": 10
     }
   },
@@ -497,7 +497,7 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].salary_max",
+      "path": "$.results[].salary_min",
       "style": "opaque",
       "new_path": "$.results[].f_ayiho",
       "occurrences": 10
@@ -509,9 +509,9 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].latitude",
+      "path": "$.results[].salary_max",
       "style": "suffix",
-      "new_path": "$.results[].latitude_v2",
+      "new_path": "$.results[].salary_max_v2",
       "occurrences": 10
     }
   },
@@ -521,7 +521,7 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].salary_max",
+      "path": "$.results[].salary_min",
       "style": "opaque",
       "new_path": "$.results[].f_gnfyg",
       "occurrences": 10
@@ -533,9 +533,9 @@
     "outcome": "rejected",
     "info": {
       "type": "rename",
-      "path": "$.results[].longitude",
+      "path": "$.results[].salary_max",
       "style": "case",
-      "new_path": "$.results[].Longitude",
+      "new_path": "$.results[].salaryMax",
       "occurrences": 10
     }
   },
@@ -545,7 +545,7 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].latitude",
+      "path": "$.results[].salary_max",
       "style": "opaque",
       "new_path": "$.results[].f_fskrr",
       "occurrences": 10
@@ -557,9 +557,9 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].longitude",
+      "path": "$.results[].salary_max",
       "style": "suffix",
-      "new_path": "$.results[].longitude_v2",
+      "new_path": "$.results[].salary_max_v2",
       "occurrences": 10
     }
   },
@@ -569,9 +569,9 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].longitude",
+      "path": "$.results[].salary_max",
       "style": "suffix",
-      "new_path": "$.results[].longitude_v2",
+      "new_path": "$.results[].salary_max_v2",
       "occurrences": 10
     }
   },
@@ -581,9 +581,9 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$.results[].latitude",
+      "path": "$.results[].salary_max",
       "style": "prefix",
-      "new_path": "$.results[].new_latitude",
+      "new_path": "$.results[].new_salary_max",
       "occurrences": 10
     }
   },
@@ -1088,7 +1088,7 @@
       "path": "$[].tripUpdate.timestamp",
       "style": "suffix",
       "new_path": "$[].tripUpdate.timestamp_v2",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1100,7 +1100,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stopSequence_v2",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1112,7 +1112,7 @@
       "path": "$[].tripUpdate.trip.directionId",
       "style": "suffix",
       "new_path": "$[].tripUpdate.trip.directionId_v2",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1124,7 +1124,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.time_v2",
-      "occurrences": 12278
+      "occurrences": 8840
     }
   },
   {
@@ -1136,7 +1136,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stopId_v2",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1148,7 +1148,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.time_v2",
-      "occurrences": 12278
+      "occurrences": 8840
     }
   },
   {
@@ -1160,7 +1160,7 @@
       "path": "$[].tripUpdate.trip.startDate",
       "style": "suffix",
       "new_path": "$[].tripUpdate.trip.startDate_v2",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1172,7 +1172,7 @@
       "path": "$[].tripUpdate.trip.startTime",
       "style": "suffix",
       "new_path": "$[].tripUpdate.trip.startTime_v2",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1184,7 +1184,7 @@
       "path": "$[].tripUpdate.trip.tripId",
       "style": "suffix",
       "new_path": "$[].tripUpdate.trip.tripId_v2",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1196,7 +1196,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship_v2",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1208,7 +1208,7 @@
       "path": "$[].tripUpdate.timestamp",
       "style": "prefix",
       "new_path": "$[].tripUpdate.new_timestamp",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1220,7 +1220,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
       "style": "prefix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
-      "occurrences": 1318
+      "occurrences": 1070
     }
   },
   {
@@ -1232,7 +1232,7 @@
       "path": "$[].tripUpdate.trip.routeId",
       "style": "prefix",
       "new_path": "$[].tripUpdate.trip.new_routeId",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1244,7 +1244,7 @@
       "path": "$[].tripUpdate.timestamp",
       "style": "prefix",
       "new_path": "$[].tripUpdate.new_timestamp",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1256,7 +1256,7 @@
       "path": "$[].tripUpdate.timestamp",
       "style": "prefix",
       "new_path": "$[].tripUpdate.new_timestamp",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1268,7 +1268,7 @@
       "path": "$[].id",
       "style": "prefix",
       "new_path": "$[].new_id",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1280,7 +1280,7 @@
       "path": "$[].tripUpdate.trip.tripId",
       "style": "prefix",
       "new_path": "$[].tripUpdate.trip.new_tripId",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1292,7 +1292,7 @@
       "path": "$[].tripUpdate.trip.startTime",
       "style": "prefix",
       "new_path": "$[].tripUpdate.trip.new_startTime",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1304,7 +1304,7 @@
       "path": "$[].tripUpdate.trip.tripId",
       "style": "prefix",
       "new_path": "$[].tripUpdate.trip.new_tripId",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1316,7 +1316,7 @@
       "path": "$[].tripUpdate.trip.directionId",
       "style": "prefix",
       "new_path": "$[].tripUpdate.trip.new_directionId",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1328,7 +1328,7 @@
       "path": "$[].tripUpdate.trip.scheduleRelationship",
       "style": "case",
       "new_path": "$[].tripUpdate.trip.schedule_relationship",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1340,7 +1340,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "case",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1352,7 +1352,7 @@
       "path": "$[].tripUpdate.trip.directionId",
       "style": "case",
       "new_path": "$[].tripUpdate.trip.direction_id",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1364,7 +1364,7 @@
       "path": "$[].tripUpdate.trip.routeId",
       "style": "case",
       "new_path": "$[].tripUpdate.trip.route_id",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1376,7 +1376,7 @@
       "path": "$[].tripUpdate.timestamp",
       "style": "case",
       "new_path": "$[].tripUpdate.Timestamp",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1388,7 +1388,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
       "style": "case",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_id",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1400,7 +1400,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "case",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1412,7 +1412,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
       "style": "case",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.Time",
-      "occurrences": 1318
+      "occurrences": 1070
     }
   },
   {
@@ -1424,7 +1424,7 @@
       "path": "$[].tripUpdate.trip.routeId",
       "style": "case",
       "new_path": "$[].tripUpdate.trip.route_id",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1436,7 +1436,7 @@
       "path": "$[].tripUpdate.trip.scheduleRelationship",
       "style": "case",
       "new_path": "$[].tripUpdate.trip.schedule_relationship",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1448,7 +1448,7 @@
       "path": "$[].tripUpdate.vehicle.id",
       "style": "opaque",
       "new_path": "$[].tripUpdate.vehicle.f_jfxln",
-      "occurrences": 497
+      "occurrences": 337
     }
   },
   {
@@ -1460,7 +1460,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
       "style": "opaque",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.f_muagm",
-      "occurrences": 12278
+      "occurrences": 8840
     }
   },
   {
@@ -1472,7 +1472,7 @@
       "path": "$[].tripUpdate.trip.scheduleRelationship",
       "style": "opaque",
       "new_path": "$[].tripUpdate.trip.f_kropp",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1484,7 +1484,7 @@
       "path": "$[].tripUpdate.trip.scheduleRelationship",
       "style": "opaque",
       "new_path": "$[].tripUpdate.trip.f_slizc",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1496,7 +1496,7 @@
       "path": "$[].tripUpdate.trip.startDate",
       "style": "opaque",
       "new_path": "$[].tripUpdate.trip.f_xupui",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1508,7 +1508,7 @@
       "path": "$[].tripUpdate.vehicle.id",
       "style": "opaque",
       "new_path": "$[].tripUpdate.vehicle.f_dboov",
-      "occurrences": 497
+      "occurrences": 337
     }
   },
   {
@@ -1520,7 +1520,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
       "style": "opaque",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.f_tjljx",
-      "occurrences": 12278
+      "occurrences": 8840
     }
   },
   {
@@ -1532,7 +1532,7 @@
       "path": "$[].tripUpdate.trip.directionId",
       "style": "opaque",
       "new_path": "$[].tripUpdate.trip.f_esbss",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1544,7 +1544,7 @@
       "path": "$[].tripUpdate.vehicle.id",
       "style": "opaque",
       "new_path": "$[].tripUpdate.vehicle.f_uaozv",
-      "occurrences": 497
+      "occurrences": 337
     }
   },
   {
@@ -1556,7 +1556,7 @@
       "path": "$[].tripUpdate.trip.startDate",
       "style": "opaque",
       "new_path": "$[].tripUpdate.trip.f_zrjry",
-      "occurrences": 842
+      "occurrences": 2276
     }
   },
   {
@@ -1568,7 +1568,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "prefix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].new_stopSequence",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1580,31 +1580,31 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "suffix",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].stopSequence_v2",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
     "source": "transit",
     "scenario": "rename+scale",
-    "outcome": "rejected",
+    "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "suffix",
-      "new_path": "$[].tripUpdate.trip.directionId_v2",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stopSequence_v2",
+      "occurrences": 12618
     }
   },
   {
     "source": "transit",
     "scenario": "rename+scale",
-    "outcome": "rejected",
+    "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "prefix",
-      "new_path": "$[].tripUpdate.trip.new_directionId",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].new_stopSequence",
+      "occurrences": 12618
     }
   },
   {
@@ -1616,7 +1616,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "opaque",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].f_phhwb",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1625,22 +1625,22 @@
     "outcome": "rejected",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "case",
-      "new_path": "$[].tripUpdate.trip.direction_id",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
+      "occurrences": 12618
     }
   },
   {
     "source": "transit",
     "scenario": "rename+scale",
-    "outcome": "rejected",
+    "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "prefix",
-      "new_path": "$[].tripUpdate.trip.new_directionId",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].new_stopSequence",
+      "occurrences": 12618
     }
   },
   {
@@ -1652,7 +1652,7 @@
       "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "opaque",
       "new_path": "$[].tripUpdate.stopTimeUpdate[].f_unnya",
-      "occurrences": 13282
+      "occurrences": 12618
     }
   },
   {
@@ -1661,10 +1661,10 @@
     "outcome": "missed",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "opaque",
-      "new_path": "$[].tripUpdate.trip.f_bvpyg",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].f_bvpyg",
+      "occurrences": 12618
     }
   },
   {
@@ -1673,10 +1673,10 @@
     "outcome": "rejected",
     "info": {
       "type": "rename",
-      "path": "$[].tripUpdate.trip.directionId",
+      "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
       "style": "case",
-      "new_path": "$[].tripUpdate.trip.direction_id",
-      "occurrences": 842
+      "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_sequence",
+      "occurrences": 12618
     }
   }
 ]

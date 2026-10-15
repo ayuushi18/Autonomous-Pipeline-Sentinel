@@ -10,6 +10,8 @@ from datetime import datetime
 from values import extract_values 
 from value_drift import compare_values
 from healer import heal
+from validator import load_history
+from baseline import build_baseline, filter_report
 
 def save_history(name, data): 
     folder = f'snapshots/history/{name}' 
@@ -25,7 +27,6 @@ def load_json(path):
     except (OSError, json.JSONDecodeError):
         return None
 
-
 def process(name, data):
     if not data:
         raise ValueError(f'{name} returned empty data')
@@ -38,6 +39,12 @@ def process(name, data):
 
     if old_fp:
         report = compare(old_fp, new_fp)
+
+        history = load_history(name, limit=10)
+        if len(history) >= 3:
+            baseline = build_baseline([fingerprint(h) for h in history])
+            report = filter_report(report, baseline)
+
         print(f'[{name}] structure drift:', report)
         if old_data:
             data, decision = heal(name, data, old_data, old_fp, new_fp, report)
@@ -61,7 +68,6 @@ def process(name, data):
 
     with open(fp_path, 'w') as f:
         json.dump(new_fp, f, indent=2)
-
 @task
 def run_jobs():
     try:

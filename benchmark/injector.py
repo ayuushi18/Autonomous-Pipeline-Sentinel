@@ -12,6 +12,7 @@ LEAF_TYPES = {'str', 'int', 'float', 'bool', 'null'}
 NUMBER_TYPES = {'int', 'float'}
 IGNORE_WORDS = ('time', 'date', 'created', 'timestamp')
 MIN_SAMPLES = 5
+MIN_DISTINCT = 5
 
 
 def _last(path):
@@ -92,7 +93,7 @@ def _candidates(data):
         'unit_scale': [p for p in numeric
                        if not _ignored(p)
                        and len(numbers.get(p, [])) >= MIN_SAMPLES
-                       and any(v != 0 for v in numbers[p])],
+                       and len(set(numbers[p])) > MIN_DISTINCT],
         'null_out': [p for p in leaf
                      if p in nulls
                      and nulls[p][1] >= MIN_SAMPLES

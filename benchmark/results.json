@@ -12,6 +12,8 @@
         "new_path": "$.results[].Description",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -26,6 +28,8 @@
         "new_path": "$.results[].new_salary_min",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -40,6 +44,8 @@
         "new_path": "$.__CLASS___v2",
         "occurrences": 1
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -54,6 +60,8 @@
         "new_path": "$.results[].Title",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -68,6 +76,8 @@
         "new_path": "$.results[].category.Label",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -82,6 +92,8 @@
         "new_path": "$.results[].new_adref",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -96,6 +108,8 @@
         "new_path": "$.results[].id_v2",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -110,6 +124,8 @@
         "new_path": "$.results[].f_mvtzz",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -124,6 +140,8 @@
         "new_path": "$.results[].Longitude",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -138,6 +156,8 @@
         "new_path": "$.results[].salary_is_predicted_v2",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -152,6 +172,8 @@
         "new_path": "$.results[].id_v2",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -166,6 +188,8 @@
         "new_path": "$.results[].category.Tag",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -180,6 +204,8 @@
         "new_path": "$.results[].salary_max_v2",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -194,6 +220,8 @@
         "new_path": "$.results[].f_shwzz",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -208,6 +236,8 @@
         "new_path": "$.results[].redirectUrl",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -222,6 +252,8 @@
         "new_path": "$.__CLASS___v2",
         "occurrences": 1
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -236,6 +268,8 @@
         "new_path": "$.results[].f_sshow",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -250,6 +284,8 @@
         "new_path": "$.results[].new_redirect_url",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -264,6 +300,8 @@
         "new_path": "$.results[].category.Class",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -278,6 +316,8 @@
         "new_path": "$.new_mean",
         "occurrences": 1
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -290,6 +330,8 @@
         "path": "$.results[].salary_is_predicted",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -302,6 +344,8 @@
         "path": "$.results[].category.label",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -314,6 +358,8 @@
         "path": "$.results[].company.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -326,6 +372,8 @@
         "path": "$.results[].company.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -338,6 +386,8 @@
         "path": "$.count",
         "occurrences": 1
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -350,6 +400,8 @@
         "path": "$.results[].company.display_name",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -362,6 +414,8 @@
         "path": "$.results[].category.label",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -374,6 +428,8 @@
         "path": "$.results[].salary_is_predicted",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -386,6 +442,8 @@
         "path": "$.results[].category.tag",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -398,6 +456,8 @@
         "path": "$.results[].location.display_name",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -410,6 +470,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -422,6 +484,8 @@
         "path": "$.results[].created",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -434,6 +498,8 @@
         "path": "$.results[].salary_is_predicted",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -446,6 +512,8 @@
         "path": "$.results[].description",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -458,6 +526,8 @@
         "path": "$.results[].location.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -470,6 +540,8 @@
         "path": "$.results[].company.display_name",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -482,6 +554,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -494,6 +568,8 @@
         "path": "$.results[].category.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -506,6 +582,8 @@
         "path": "$.results[].description",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -518,6 +596,8 @@
         "path": "$.results[].description",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -530,6 +610,8 @@
         "path": "$.count",
         "occurrences": 1
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -542,6 +624,8 @@
         "path": "$.results[].created",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -554,6 +638,8 @@
         "path": "$.results[].category.tag",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -566,6 +652,8 @@
         "path": "$.results[].location.display_name",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -578,6 +666,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -590,6 +680,8 @@
         "path": "$.results[].id",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -602,6 +694,8 @@
         "path": "$.results[].category.label",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -614,6 +708,8 @@
         "path": "$.results[].category.label",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -626,6 +722,8 @@
         "path": "$.results[].longitude",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -638,6 +736,8 @@
         "path": "$.results[].longitude",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -650,6 +750,8 @@
         "path": "$.results[].location.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -662,6 +764,8 @@
         "path": "$.results[].adref",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -674,6 +778,8 @@
         "path": "$.results[].category.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -686,6 +792,8 @@
         "path": "$.results[].category.tag",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -698,6 +806,8 @@
         "path": "$.results[].latitude",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -710,6 +820,8 @@
         "path": "$.results[].company.__CLASS__",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -722,6 +834,8 @@
         "path": "$.results[].latitude",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -734,6 +848,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -746,6 +862,8 @@
         "path": "$.results[].description",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -758,6 +876,8 @@
         "path": "$.results[].redirect_url",
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -768,9 +888,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$.results[].salary_min",
-        "factor": 100,
+        "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -780,10 +902,12 @@
       "trial": 1,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].latitude",
+        "path": "$.results[].salary_max",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -793,10 +917,12 @@
       "trial": 2,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].salary_max",
+        "path": "$.results[].salary_min",
         "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -806,10 +932,12 @@
       "trial": 3,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].latitude",
+        "path": "$.results[].salary_max",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -819,10 +947,12 @@
       "trial": 4,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
-        "factor": 1000,
+        "path": "$.results[].salary_max",
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -832,10 +962,12 @@
       "trial": 5,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].salary_max",
+        "path": "$.results[].salary_min",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -849,6 +981,8 @@
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -862,6 +996,8 @@
         "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -871,10 +1007,12 @@
       "trial": 8,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
-        "factor": 100,
+        "path": "$.results[].salary_max",
+        "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -888,6 +1026,8 @@
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -898,9 +1038,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$.results[].salary_min",
-        "factor": 1000,
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -910,10 +1052,12 @@
       "trial": 11,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].latitude",
-        "factor": 100,
+        "path": "$.results[].salary_max",
+        "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -923,10 +1067,12 @@
       "trial": 12,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
-        "factor": 1000,
+        "path": "$.results[].salary_max",
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -936,10 +1082,12 @@
       "trial": 13,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
-        "factor": 1000,
+        "path": "$.results[].salary_max",
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -949,10 +1097,12 @@
       "trial": 14,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].salary_max",
+        "path": "$.results[].salary_min",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -962,10 +1112,12 @@
       "trial": 15,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
+        "path": "$.results[].salary_max",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -975,10 +1127,12 @@
       "trial": 16,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].longitude",
-        "factor": 100,
+        "path": "$.results[].salary_max",
+        "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -988,10 +1142,12 @@
       "trial": 17,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].salary_max",
-        "factor": 1000,
+        "path": "$.results[].salary_min",
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1001,10 +1157,12 @@
       "trial": 18,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].salary_max",
-        "factor": 1000,
+        "path": "$.results[].salary_min",
+        "factor": 100,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1014,10 +1172,12 @@
       "trial": 19,
       "info": {
         "type": "unit_scale",
-        "path": "$.results[].latitude",
+        "path": "$.results[].salary_max",
         "factor": 1000,
         "occurrences": 10
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1030,6 +1190,8 @@
         "path": "$.results[].title",
         "occurrences": 8
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1042,6 +1204,8 @@
         "path": "$.results[].redirect_url",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1054,6 +1218,8 @@
         "path": "$.results[].salary_min",
         "occurrences": 2
       },
+      "detected_before": true,
+      "localized_before": false,
       "detected": true,
       "localized": false
     },
@@ -1066,6 +1232,8 @@
         "path": "$.results[].salary_is_predicted",
         "occurrences": 6
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1078,6 +1246,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1090,6 +1260,8 @@
         "path": "$.results[].__CLASS__",
         "occurrences": 6
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1102,6 +1274,8 @@
         "path": "$.results[].location.__CLASS__",
         "occurrences": 7
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1114,6 +1288,8 @@
         "path": "$.results[].title",
         "occurrences": 8
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1126,6 +1302,8 @@
         "path": "$.results[].longitude",
         "occurrences": 9
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1138,6 +1316,8 @@
         "path": "$.results[].salary_min",
         "occurrences": 6
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1150,6 +1330,8 @@
         "path": "$.results[].__CLASS__",
         "occurrences": 7
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1162,6 +1344,8 @@
         "path": "$.results[].salary_is_predicted",
         "occurrences": 3
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1174,6 +1358,8 @@
         "path": "$.results[].category.label",
         "occurrences": 4
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1186,6 +1372,8 @@
         "path": "$.results[].company.display_name",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1198,6 +1386,8 @@
         "path": "$.results[].latitude",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1210,6 +1400,8 @@
         "path": "$.results[].category.tag",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1222,6 +1414,8 @@
         "path": "$.results[].salary_max",
         "occurrences": 8
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1234,6 +1428,8 @@
         "path": "$.results[].company.display_name",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1246,6 +1442,8 @@
         "path": "$.results[].description",
         "occurrences": 5
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1258,6 +1456,8 @@
         "path": "$.results[].company.display_name",
         "occurrences": 9
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1272,6 +1472,8 @@
         "new_path": "$[].recEffSpikeConc",
         "occurrences": 99
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1286,6 +1488,8 @@
         "new_path": "$[].concentration_method_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1300,6 +1504,8 @@
         "new_path": "$[].pcrTargetAvgConc",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1314,6 +1520,8 @@
         "new_path": "$[].f_emibb",
         "occurrences": 99
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1328,6 +1536,8 @@
         "new_path": "$[].new_record_id",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1342,6 +1552,8 @@
         "new_path": "$[].f_luqga",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1356,6 +1568,8 @@
         "new_path": "$[].pcr_target_detect_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1370,6 +1584,8 @@
         "new_path": "$[].concentration_method_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1384,6 +1600,8 @@
         "new_path": "$[].countiesServed",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1398,6 +1616,8 @@
         "new_path": "$[].f_uvfft",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1412,6 +1632,8 @@
         "new_path": "$[].f_hneco",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1426,6 +1648,8 @@
         "new_path": "$[].f_igevx",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1440,6 +1664,8 @@
         "new_path": "$[].pcr_target_avg_conc_lin_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1454,6 +1680,8 @@
         "new_path": "$[].ntc_amplify_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1468,6 +1696,8 @@
         "new_path": "$[].new_major_lab_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1482,6 +1712,8 @@
         "new_path": "$[].f_lcgzg",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1496,6 +1728,8 @@
         "new_path": "$[].new_source",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1510,6 +1744,8 @@
         "new_path": "$[].new_sample_type",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1524,6 +1760,8 @@
         "new_path": "$[].state_territory_v2",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1538,6 +1776,8 @@
         "new_path": "$[].Pasteurized",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1550,6 +1790,8 @@
         "path": "$[].pcr_gene_target_agg",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1562,6 +1804,8 @@
         "path": "$[].population_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1574,6 +1818,8 @@
         "path": "$[].pasteurized",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1586,6 +1832,8 @@
         "path": "$[].county_fips",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1598,6 +1846,8 @@
         "path": "$[].sample_type",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1610,6 +1860,8 @@
         "path": "$[].rec_eff_spike_matrix",
         "occurrences": 99
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1622,6 +1874,8 @@
         "path": "$[].counties_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1634,6 +1888,8 @@
         "path": "$[].source",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1646,6 +1902,8 @@
         "path": "$[].sample_collect_date",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1658,6 +1916,8 @@
         "path": "$[].major_lab_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1670,6 +1930,8 @@
         "path": "$[].pasteurized",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1682,6 +1944,8 @@
         "path": "$[].rec_eff_percent",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1694,6 +1958,8 @@
         "path": "$[].pcr_target_detect",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1706,6 +1972,8 @@
         "path": "$[].pcr_target_detect",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1718,6 +1986,8 @@
         "path": "$[].counties_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1730,6 +2000,8 @@
         "path": "$[].pcr_gene_target_agg",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1742,6 +2014,8 @@
         "path": "$[].counties_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1754,6 +2028,8 @@
         "path": "$[].ntc_amplify",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1766,6 +2042,8 @@
         "path": "$[].inhibition_detect",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1778,6 +2056,8 @@
         "path": "$[].ntc_amplify",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1790,6 +2070,8 @@
         "path": "$[].sample_matrix",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1802,6 +2084,8 @@
         "path": "$[].rec_eff_spike_matrix",
         "occurrences": 99
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1814,6 +2098,8 @@
         "path": "$[].population_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1826,6 +2112,8 @@
         "path": "$[].inhibition_detect",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1838,6 +2126,8 @@
         "path": "$[].sample_matrix",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1850,6 +2140,8 @@
         "path": "$[].lod_sewage",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1862,6 +2154,8 @@
         "path": "$[].pcr_target",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1874,6 +2168,8 @@
         "path": "$[].pcr_target_units",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1886,6 +2182,8 @@
         "path": "$[].concentration_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1898,6 +2196,8 @@
         "path": "$[].sample_collect_date",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1910,6 +2210,8 @@
         "path": "$[].concentration_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1922,6 +2224,8 @@
         "path": "$[].pcr_target_detect",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1934,6 +2238,8 @@
         "path": "$[].major_lab_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1946,6 +2252,8 @@
         "path": "$[].sample_collect_date",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1958,6 +2266,8 @@
         "path": "$[].population_served",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1970,6 +2280,8 @@
         "path": "$[].sample_collect_date",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1982,6 +2294,8 @@
         "path": "$[].extraction_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -1994,6 +2308,8 @@
         "path": "$[].rec_eff_spike_conc",
         "occurrences": 99
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2006,6 +2322,8 @@
         "path": "$[].record_id",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2018,6 +2336,8 @@
         "path": "$[].major_lab_method",
         "occurrences": 100
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2030,6 +2350,8 @@
         "path": "$[].record_id",
         "occurrences": 65
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2042,6 +2364,8 @@
         "path": "$[].date_updated",
         "occurrences": 65
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2054,6 +2378,8 @@
         "path": "$[].major_lab_method",
         "occurrences": 61
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2066,6 +2392,8 @@
         "path": "$[].pcr_target",
         "occurrences": 50
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2078,6 +2406,8 @@
         "path": "$[].sample_location",
         "occurrences": 64
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2090,6 +2420,8 @@
         "path": "$[].rec_eff_spike_matrix",
         "occurrences": 55
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2102,6 +2434,8 @@
         "path": "$[].pcr_gene_target_agg",
         "occurrences": 70
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2114,6 +2448,8 @@
         "path": "$[].pcr_gene_target_agg",
         "occurrences": 60
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2126,6 +2462,8 @@
         "path": "$[].lod_sewage",
         "occurrences": 63
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2138,6 +2476,8 @@
         "path": "$[].pcr_target_avg_conc_lin",
         "occurrences": 58
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2150,6 +2490,8 @@
         "path": "$[].sample_id",
         "occurrences": 69
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2162,6 +2504,8 @@
         "path": "$[].source",
         "occurrences": 51
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2174,6 +2518,8 @@
         "path": "$[].pasteurized",
         "occurrences": 66
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2186,6 +2532,8 @@
         "path": "$[].population_served",
         "occurrences": 50
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2198,6 +2546,8 @@
         "path": "$[].pcr_target_avg_conc",
         "occurrences": 51
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2210,6 +2560,8 @@
         "path": "$[].pcr_target_avg_conc",
         "occurrences": 53
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2222,6 +2574,8 @@
         "path": "$[].rec_eff_spike_matrix",
         "occurrences": 57
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2234,6 +2588,8 @@
         "path": "$[].population_served",
         "occurrences": 55
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2246,6 +2602,8 @@
         "path": "$[].extraction_method",
         "occurrences": 55
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2258,6 +2616,8 @@
         "path": "$[].county_fips",
         "occurrences": 63
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2270,8 +2630,10 @@
         "path": "$[].tripUpdate.vehicle.id",
         "style": "case",
         "new_path": "$[].tripUpdate.vehicle.Id",
-        "occurrences": 497
+        "occurrences": 337
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2284,8 +2646,10 @@
         "path": "$[].id",
         "style": "case",
         "new_path": "$[].Id",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2298,8 +2662,10 @@
         "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
         "style": "case",
         "new_path": "$[].tripUpdate.stopTimeUpdate[].stop_id",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2312,8 +2678,10 @@
         "path": "$[].tripUpdate.trip.directionId",
         "style": "suffix",
         "new_path": "$[].tripUpdate.trip.directionId_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2326,8 +2694,10 @@
         "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
         "style": "prefix",
         "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
-        "occurrences": 1318
+        "occurrences": 1070
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2340,8 +2710,10 @@
         "path": "$[].tripUpdate.trip.directionId",
         "style": "case",
         "new_path": "$[].tripUpdate.trip.direction_id",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2354,8 +2726,10 @@
         "path": "$[].tripUpdate.trip.startTime",
         "style": "suffix",
         "new_path": "$[].tripUpdate.trip.startTime_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2368,8 +2742,10 @@
         "path": "$[].tripUpdate.timestamp",
         "style": "case",
         "new_path": "$[].tripUpdate.Timestamp",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2382,8 +2758,10 @@
         "path": "$[].tripUpdate.trip.startTime",
         "style": "opaque",
         "new_path": "$[].tripUpdate.trip.f_numvo",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2396,8 +2774,10 @@
         "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
         "style": "prefix",
         "new_path": "$[].tripUpdate.stopTimeUpdate[].departure.new_time",
-        "occurrences": 1318
+        "occurrences": 1070
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2410,8 +2790,10 @@
         "path": "$[].tripUpdate.trip.routeId",
         "style": "prefix",
         "new_path": "$[].tripUpdate.trip.new_routeId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2424,8 +2806,10 @@
         "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
         "style": "case",
         "new_path": "$[].tripUpdate.stopTimeUpdate[].arrival.Time",
-        "occurrences": 12278
+        "occurrences": 8840
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2438,8 +2822,10 @@
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "style": "opaque",
         "new_path": "$[].tripUpdate.stopTimeUpdate[].f_ypdwv",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2452,8 +2838,10 @@
         "path": "$[].tripUpdate.trip.directionId",
         "style": "suffix",
         "new_path": "$[].tripUpdate.trip.directionId_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2466,8 +2854,10 @@
         "path": "$[].tripUpdate.trip.routeId",
         "style": "prefix",
         "new_path": "$[].tripUpdate.trip.new_routeId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2480,8 +2870,10 @@
         "path": "$[].tripUpdate.trip.routeId",
         "style": "suffix",
         "new_path": "$[].tripUpdate.trip.routeId_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2494,8 +2886,10 @@
         "path": "$[].id",
         "style": "suffix",
         "new_path": "$[].id_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2508,8 +2902,10 @@
         "path": "$[].tripUpdate.timestamp",
         "style": "suffix",
         "new_path": "$[].tripUpdate.timestamp_v2",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2522,8 +2918,10 @@
         "path": "$[].tripUpdate.trip.routeId",
         "style": "opaque",
         "new_path": "$[].tripUpdate.trip.f_fgkze",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2536,8 +2934,10 @@
         "path": "$[].tripUpdate.trip.directionId",
         "style": "opaque",
         "new_path": "$[].tripUpdate.trip.f_vsfhe",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2548,8 +2948,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2560,8 +2962,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2572,8 +2976,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2584,8 +2990,10 @@
       "info": {
         "type": "remove",
         "path": "$[].id",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2596,8 +3004,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.startDate",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2608,8 +3018,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.startTime",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2620,8 +3032,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2632,8 +3046,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.tripId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2644,8 +3060,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.routeId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2656,8 +3074,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.startDate",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2668,8 +3088,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2680,8 +3102,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2692,8 +3116,10 @@
       "info": {
         "type": "remove",
         "path": "$[].id",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2704,8 +3130,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.vehicle.id",
-        "occurrences": 497
+        "occurrences": 337
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2716,8 +3144,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2728,8 +3158,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.startDate",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2740,8 +3172,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
-        "occurrences": 12278
+        "occurrences": 8840
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2752,8 +3186,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2764,8 +3200,10 @@
       "info": {
         "type": "remove",
         "path": "$[].id",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2776,8 +3214,10 @@
       "info": {
         "type": "remove",
         "path": "$[].tripUpdate.trip.scheduleRelationship",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2788,8 +3228,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.scheduleRelationship",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2800,8 +3242,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.tripId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2812,8 +3256,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.routeId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2824,8 +3270,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2836,8 +3284,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.directionId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2848,8 +3298,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.startTime",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2860,8 +3312,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2872,8 +3326,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.startTime",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2884,8 +3340,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.vehicle.id",
-        "occurrences": 497
+        "occurrences": 337
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2896,8 +3354,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
-        "occurrences": 12278
+        "occurrences": 8840
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2908,8 +3368,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.scheduleRelationship",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2920,8 +3382,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
-        "occurrences": 12278
+        "occurrences": 8840
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2932,8 +3396,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2944,8 +3410,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.startTime",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2956,8 +3424,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.directionId",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2968,8 +3438,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2980,8 +3452,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].arrival.time",
-        "occurrences": 12278
+        "occurrences": 8840
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -2992,8 +3466,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.trip.scheduleRelationship",
-        "occurrences": 842
+        "occurrences": 2276
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3004,8 +3480,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.vehicle.id",
-        "occurrences": 497
+        "occurrences": 337
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3016,8 +3494,10 @@
       "info": {
         "type": "type_change",
         "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3027,10 +3507,12 @@
       "trial": 0,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
-        "factor": 100,
-        "occurrences": 842
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 1000,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3040,10 +3522,12 @@
       "trial": 1,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
-        "factor": 1000,
-        "occurrences": 842
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3055,8 +3539,10 @@
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3066,10 +3552,12 @@
       "trial": 3,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3079,10 +3567,12 @@
       "trial": 4,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
-        "factor": 1000,
-        "occurrences": 842
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3094,8 +3584,10 @@
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 100,
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3107,8 +3599,10 @@
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3119,9 +3613,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "factor": 100,
-        "occurrences": 13282
+        "factor": 1000,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3132,9 +3628,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "factor": 1000,
-        "occurrences": 13282
+        "factor": 100,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3144,10 +3642,12 @@
       "trial": 9,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3159,8 +3659,10 @@
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3172,8 +3674,10 @@
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 13282
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3184,9 +3688,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "factor": 1000,
-        "occurrences": 13282
+        "factor": 100,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3196,10 +3702,12 @@
       "trial": 13,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
-        "factor": 1000,
-        "occurrences": 842
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
+        "factor": 100,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3209,10 +3717,12 @@
       "trial": 14,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 100,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3222,10 +3732,12 @@
       "trial": 15,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 100,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3235,10 +3747,12 @@
       "trial": 16,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3248,10 +3762,12 @@
       "trial": 17,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 100,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3262,9 +3778,11 @@
       "info": {
         "type": "unit_scale",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "factor": 100,
-        "occurrences": 13282
+        "factor": 1000,
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3274,10 +3792,12 @@
       "trial": 19,
       "info": {
         "type": "unit_scale",
-        "path": "$[].tripUpdate.trip.directionId",
+        "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
         "factor": 1000,
-        "occurrences": 842
+        "occurrences": 12618
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3288,8 +3808,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
-        "occurrences": 7952
+        "occurrences": 7543
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3300,8 +3822,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 8022
+        "occurrences": 7614
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3312,8 +3836,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].departure.time",
-        "occurrences": 744
+        "occurrences": 602
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3324,8 +3850,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 7949
+        "occurrences": 7562
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3336,8 +3864,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 488
+        "occurrences": 1369
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3348,8 +3878,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.routeId",
-        "occurrences": 505
+        "occurrences": 1371
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3360,8 +3892,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.routeId",
-        "occurrences": 488
+        "occurrences": 1325
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3372,8 +3906,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopId",
-        "occurrences": 7982
+        "occurrences": 7558
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3384,8 +3920,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].scheduleRelationship",
-        "occurrences": 7901
+        "occurrences": 7507
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3396,8 +3934,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.tripId",
-        "occurrences": 510
+        "occurrences": 1397
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3408,8 +3948,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.tripId",
-        "occurrences": 502
+        "occurrences": 1369
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3420,8 +3962,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].id",
-        "occurrences": 505
+        "occurrences": 1349
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3432,8 +3976,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.scheduleRelationship",
-        "occurrences": 505
+        "occurrences": 1363
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3444,8 +3990,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.startTime",
-        "occurrences": 507
+        "occurrences": 1374
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3456,8 +4004,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.timestamp",
-        "occurrences": 516
+        "occurrences": 1381
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3468,8 +4018,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.startDate",
-        "occurrences": 514
+        "occurrences": 1375
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3480,8 +4032,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.tripId",
-        "occurrences": 486
+        "occurrences": 1388
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3492,8 +4046,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 8008
+        "occurrences": 7617
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3504,8 +4060,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.trip.routeId",
-        "occurrences": 498
+        "occurrences": 1341
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     },
@@ -3516,8 +4074,10 @@
       "info": {
         "type": "null_out",
         "path": "$[].tripUpdate.stopTimeUpdate[].stopSequence",
-        "occurrences": 7972
+        "occurrences": 7576
       },
+      "detected_before": true,
+      "localized_before": true,
       "detected": true,
       "localized": true
     }
@@ -3525,204 +4085,237 @@
   "clean": [
     {
       "source": "jobs",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "jobs",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "jobs",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "jobs",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "jobs",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": true,
+      "alarm_after": true,
+      "reasons": [
+        "presence_shift"
+      ]
+    },
+    {
+      "source": "jobs",
+      "alarm_before": true,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "jobs",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "govdata",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "govdata",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "govdata",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "govdata",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "transit",
-      "alarm": true,
-      "structure": {
-        "added": [
-          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty"
-        ],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "transit",
-      "alarm": true,
-      "structure": {
-        "added": [
-          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty"
-        ],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": true,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "transit",
-      "alarm": false,
-      "structure": {
-        "added": [],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": true,
+      "alarm_after": true,
+      "reasons": [
+        "presence_shift"
+      ]
     },
     {
       "source": "transit",
-      "alarm": true,
-      "structure": {
-        "added": [],
-        "removed": [
-          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty",
-          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty"
-        ],
-        "type_changed": {},
-        "presence_shift": {}
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": true,
+      "alarm_after": false,
+      "reasons": []
     },
     {
       "source": "transit",
-      "alarm": true,
-      "structure": {
-        "added": [
-          "$[].tripUpdate.stopTimeUpdate[].departure.uncertainty",
-          "$[].tripUpdate.stopTimeUpdate[].arrival.uncertainty"
-        ],
-        "removed": [],
-        "type_changed": {},
-        "presence_shift": {
-          "$[].tripUpdate.stopTimeUpdate[].arrival": {
-            "was": 0.241,
-            "now": 0.924
-          },
-          "$[].tripUpdate.vehicle": {
-            "was": 0.028,
-            "now": 0.59
-          }
-        }
-      },
-      "values": {
-        "value_shift": {},
-        "null_shift": {}
-      }
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": true,
+      "alarm_after": true,
+      "reasons": [
+        "removed"
+      ]
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": false,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": true,
+      "alarm_after": false,
+      "reasons": []
+    },
+    {
+      "source": "transit",
+      "alarm_before": true,
+      "alarm_after": false,
+      "reasons": []
     }
   ],
   "skipped": {
