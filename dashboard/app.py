@@ -2,7 +2,22 @@ import json
 import random
 import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+import pandas as pd
+import streamlit as st
+
+import ingest.healer as healer
+from benchmark.injector import (RENAME_STYLES, _apply_at, _candidates,
+                                _try_inject, inject)
 from dashboard.decision_log import render_log
+from ingest.compare import compare
+from ingest.explainer import template_explanation
+from ingest.fingerprints import fingerprint
+from ingest.value_drift import compare_values
+from ingest.values import extract_values
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -353,7 +368,7 @@ with tab_try:
 
 with tab_log:
     render_log(DATA)
-    
+
 with tab_bench:
     st.subheader('Drift detection')
     st.caption('Injected faults on copies of real snapshots, 20 trials per source and type. '

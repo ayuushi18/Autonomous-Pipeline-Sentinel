@@ -1,0 +1,12 @@
+.git
+.env
+**/.env
+snapshots
+logs
+venv
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+benchmark/results.json
+benchmark/heal_results.json
