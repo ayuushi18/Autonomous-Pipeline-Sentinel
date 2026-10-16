@@ -24,9 +24,12 @@ transit = json.load(open(ROOT / 'snapshots' / 'transit_snapshot.json'))
 with open(OUT / 'transit_sample.json', 'w') as f:
     json.dump(transit[:300], f)
 
-log = ROOT / 'logs' / 'heal_log.jsonl'
-if log.exists():
-    shutil.copy(log, OUT / 'heal_log.jsonl')
+for log_name in ('heal_log.jsonl', 'test_heal_log.jsonl'):
+    log = ROOT / 'logs' / log_name
+    if log.exists():
+        shutil.copy(log, OUT / log_name)
+    else:
+        print(f'(no {log_name} found, skipping)')
 
 for path in sorted(OUT.iterdir()):
     print(f'{path.name}: {path.stat().st_size / 1024:.0f} KB')

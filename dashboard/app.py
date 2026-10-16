@@ -2,6 +2,7 @@ import json
 import random
 import sys
 from pathlib import Path
+from dashboard.decision_log import render_log
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -351,8 +352,8 @@ with tab_try:
                'needs a history of snapshots, so it is not applied in this demo.')
 
 with tab_log:
-    st.caption('Decision log: built in step 4.')
-
+    render_log(DATA)
+    
 with tab_bench:
     st.subheader('Drift detection')
     st.caption('Injected faults on copies of real snapshots, 20 trials per source and type. '
